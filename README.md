@@ -10,6 +10,8 @@ The original source code was developped for OpenFOAM 2.1.0 and this repository a
 
 It has been created after finding this thread: http://www.cfd-online.com/Forums/openfoam-programming-development/135891-problem-compiling-new-solver.html
 
+**Please keep in mind that this repository currently only focuses on making the solvers build with each OpenFOAM version. The results from each version have not yet been compared; and there are updates that are present in OpenFOAM's own code that have not been extended to this code.**
+
 
 Documentation
 =============
