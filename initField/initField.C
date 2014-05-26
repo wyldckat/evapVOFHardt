@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     (
         IOobject
         (
-            "alpha1",
+            "alpha.phase1",
             runTime.timeName(),
             mesh,
             IOobject::MUST_READ,
