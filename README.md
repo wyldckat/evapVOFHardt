@@ -17,6 +17,14 @@ Documentation
 Have a look into the files `Documentation_evapVOF.pdf` and `example.mpg`.
 
 
+References
+==========
+
+ * S. Hardt, F. Wondra, 2008. Evaporation model for interfacial flows based on a continuum-field representation of source terms, Journal of Computational Physics, vol. 227, pp. 5871-5895.
+
+ * C. Kunkelmann, P Stephan, 2009. CFD simulation of boiling flows using the volume-of-fluid method within OpenFOAM, Numerical Heat Transfer A, vol. 56, pp. 631-646.
+
+
 Disclaimer and License
 ======================
 
