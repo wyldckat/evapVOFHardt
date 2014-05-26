@@ -50,5 +50,8 @@
         }
     }
 
-#   include "continuityErrs.H"
 }
+
+phi.oldTime() = phi;
+
+#include "continuityErrs.H"
