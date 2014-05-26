@@ -16,6 +16,22 @@ FoamFile
 
 solvers
 {
+    "alpha.phase1"
+    {
+        nAlphaCorr      2;
+        nAlphaSubCycles 1;
+        alphaOuterCorrectors yes;
+        cAlpha          1;
+
+        MULESCorr       yes;
+        nLimiterIter    3;
+
+        solver          smoothSolver;
+        smoother        symGaussSeidel;
+        tolerance       1e-8;
+        relTol          0;
+    }
+
     pcorr
     {
         solver           PCG;
