@@ -1,3 +1,3 @@
 initField.C
 
-EXE = ./initField
+EXE = $(FOAM_USER_APPBIN)/initFieldVOFHardt

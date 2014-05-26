@@ -1,3 +1,3 @@
 evapVOFHardt.C
 
-EXE = evapVOFHardt
+EXE = $(FOAM_USER_APPBIN)/evapVOFHardt

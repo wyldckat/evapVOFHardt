@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application 	evapVOFHardt;
+application     evapVOFHardt;
 
 startFrom       latestTime;
 

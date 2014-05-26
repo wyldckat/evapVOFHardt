@@ -16,6 +16,17 @@ Documentation
 
 Have a look into the files `Documentation_evapVOF.pdf` and `example.mpg`.
 
+Changes made that make it work differently from the original source code:
+
+ * The utility `initField` has been renamed to `initFieldVOFHardt`.
+
+ * Both the utility and the solver are now made available at the user's own applications folder, which means that the it's no longer necessary to run with the full path to them.
+
+ * Added the `Allrun`, `Allclean`, `Allwmake` and `Allwclean` scripts for convenience. For example, to run the example case, simply run:
+   ```
+   ./Allrun
+   ```
+
 
 References
 ==========
@@ -65,12 +76,13 @@ For getting and building from git:
 git clone git://github.com/wyldckat/evapVOFHardt.git
 cd evapVOFHardt
 git checkout master
-wmake
+./Allwmake
 ```
 
 For getting and building from zip:
 ```
 wget "https://github.com/wyldckat/evapVOFHardt/archive/master.zip" -O evapVOFHardt.zip
 cd evapVOFHardt-master
-wmake
+chmod +x Allw* example/All*
+./Allwmake
 ```
