@@ -6,7 +6,7 @@ This git repository was created Bruno Santos (wyldckat@github), based on the ori
     Solver for the simulation of two phase flows with phase change (without contact line evaporation) based on Hardt/Wondra (Journal of Computational Physics, 2008).
     In case of further questions please contact M.Sc. Stefan Batzdorf.
     
-The original source code was developped for OpenFOAM 2.1.1 and this repository aims to extend functionality to other OpenFOAM versions and variants.
+The original source code was developped for OpenFOAM 2.1.0 and this repository aims to extend functionality to other OpenFOAM versions and variants.
 
 It has been created after finding this thread: http://www.cfd-online.com/Forums/openfoam-programming-development/135891-problem-compiling-new-solver.html
 
@@ -50,7 +50,7 @@ This is bound to the same license as OpenFOAM, namely GNU Public License v3. Quo
 How to get+build evapVOFHardt from this repository
 ==================================================
 
-These instructions are for OpenFOAM 2.1.1:
+These instructions are for OpenFOAM 2.1.0:
 
 For getting and building from git:
 ```
