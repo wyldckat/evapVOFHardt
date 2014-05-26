@@ -45,7 +45,7 @@ Authors
 #include "dynamicRefineFvMesh.H"
 #include "subCycle.H"
 #include "interfaceProperties.H"
-#include "twoPhaseMixture.H"
+#include "incompressibleTwoPhaseMixture.H"
 #include "probes.H"
 #include "alphaContactAngleFvPatchScalarField.H"
 #include "turbulenceModel.H"
