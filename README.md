@@ -71,7 +71,8 @@ This is bound to the same license as OpenFOAM, namely GNU Public License v3. Quo
 How to get+build evapVOFHardt from this repository
 ==================================================
 
-These instructions are for OpenFOAM 2.1.0:
+OpenFOAM 2.1.0, 2.1.1 and 2.1.x
+-------------------------------
 
 For getting and building from git:
 ```
@@ -85,6 +86,46 @@ For getting and building from zip:
 ```
 wget "https://github.com/wyldckat/evapVOFHardt/archive/master.zip" -O evapVOFHardt.zip
 cd evapVOFHardt-master
+chmod +x Allw* example/All*
+./Allwmake
+```
+
+
+OpenFOAM 2.2.x
+-------------------------------
+
+For getting and building from git:
+```
+git clone git://github.com/wyldckat/evapVOFHardt.git
+cd evapVOFHardt
+git checkout of22x
+./Allwmake
+```
+
+For getting and building from zip:
+```
+wget "https://github.com/wyldckat/evapVOFHardt/archive/of22x.zip" -O evapVOFHardt.zip
+cd evapVOFHardt-of22x
+chmod +x Allw* example/All*
+./Allwmake
+```
+
+
+OpenFOAM 2.3.x
+-------------------------------
+
+For getting and building from git:
+```
+git clone git://github.com/wyldckat/evapVOFHardt.git
+cd evapVOFHardt
+git checkout of23x
+./Allwmake
+```
+
+For getting and building from zip:
+```
+wget "https://github.com/wyldckat/evapVOFHardt/archive/of23x.zip" -O evapVOFHardt.zip
+cd evapVOFHardt-of23x
 chmod +x Allw* example/All*
 ./Allwmake
 ```
