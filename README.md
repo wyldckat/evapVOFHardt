@@ -1,7 +1,7 @@
 evapVOFHardt
 ============
 
-This git repository was created Bruno Santos (wyldckat@github), based on the original files that are available here: http://www.ttd.tu-darmstadt.de/forschung_1/openfoamdatenbank/evapvofhard.en.jsp - Quoting from that page:
+This git repository was created Bruno Santos (wyldckat@github working at [blueCAPE Lda](http://www.bluecape.com.pt)), based on the original files that are available here: http://www.ttd.tu-darmstadt.de/forschung_1/openfoamdatenbank/evapvofhard.en.jsp - Quoting from that page:
 
     Solver for the simulation of two phase flows with phase change (without contact line evaporation) based on Hardt/Wondra (Journal of Computational Physics, 2008).
     In case of further questions please contact M.Sc. Stefan Batzdorf.
@@ -9,6 +9,8 @@ This git repository was created Bruno Santos (wyldckat@github), based on the ori
 The original source code was developped for OpenFOAM 2.1.0 and this repository aims to extend functionality to other OpenFOAM versions and variants.
 
 It has been created after finding this thread: http://www.cfd-online.com/Forums/openfoam-programming-development/135891-problem-compiling-new-solver.html
+
+**Please keep in mind that this repository currently only focuses on making the solvers build with each OpenFOAM version. The results from each version have not yet been compared; and there are updates that are present in OpenFOAM's own code that have not been extended to this code.**
 
 
 Documentation
@@ -69,7 +71,8 @@ This is bound to the same license as OpenFOAM, namely GNU Public License v3. Quo
 How to get+build evapVOFHardt from this repository
 ==================================================
 
-These instructions are for OpenFOAM 2.1.0:
+OpenFOAM 2.1.0, 2.1.1 and 2.1.x
+-------------------------------
 
 For getting and building from git:
 ```
@@ -83,6 +86,46 @@ For getting and building from zip:
 ```
 wget "https://github.com/wyldckat/evapVOFHardt/archive/master.zip" -O evapVOFHardt.zip
 cd evapVOFHardt-master
+chmod +x Allw* example/All*
+./Allwmake
+```
+
+
+OpenFOAM 2.2.x
+-------------------------------
+
+For getting and building from git:
+```
+git clone git://github.com/wyldckat/evapVOFHardt.git
+cd evapVOFHardt
+git checkout of22x
+./Allwmake
+```
+
+For getting and building from zip:
+```
+wget "https://github.com/wyldckat/evapVOFHardt/archive/of22x.zip" -O evapVOFHardt.zip
+cd evapVOFHardt-of22x
+chmod +x Allw* example/All*
+./Allwmake
+```
+
+
+OpenFOAM 2.3.x
+-------------------------------
+
+For getting and building from git:
+```
+git clone git://github.com/wyldckat/evapVOFHardt.git
+cd evapVOFHardt
+git checkout of23x
+./Allwmake
+```
+
+For getting and building from zip:
+```
+wget "https://github.com/wyldckat/evapVOFHardt/archive/of23x.zip" -O evapVOFHardt.zip
+cd evapVOFHardt-of23x
 chmod +x Allw* example/All*
 ./Allwmake
 ```
