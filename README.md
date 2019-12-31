@@ -1,7 +1,7 @@
 evapVOFHardt
 ============
 
-This git repository was created Bruno Santos (wyldckat@github working at [blueCAPE Lda](http://www.bluecape.com.pt)), based on the original files that are available here: http://www.ttd.tu-darmstadt.de/forschung_1/openfoamdatenbank/evapvofhard.en.jsp - Quoting from that page:
+This git repository was created Bruno Santos (wyldckat@github working at [blueCAPE Lda](http://www.bluecape.com.pt)), based on the original files that were available here: [http://www.ttd.tu-darmstadt.de/forschung_1/openfoamdatenbank/evapvofhard.en.jsp](http://web.archive.org/web/20170419224010/www.ttd.tu-darmstadt.de/forschung_1/openfoamdatenbank/evapvofhard.en.jsp) - Quoting from that page:
 
     Solver for the simulation of two phase flows with phase change (without contact line evaporation) based on Hardt/Wondra (Journal of Computational Physics, 2008).
     In case of further questions please contact M.Sc. Stefan Batzdorf.
